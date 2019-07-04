@@ -54,8 +54,9 @@ namespace SDRSharp.CollapsiblePanel
             this.titlePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.titlePanel.Location = new System.Drawing.Point(0, 0);
             this.titlePanel.Name = "titlePanel";
-            this.titlePanel.Size = new System.Drawing.Size(150, 20);
+            this.titlePanel.Size = new System.Drawing.Size(150, 18);
             this.titlePanel.TabIndex = 0;
+            this.titlePanel.DoubleClick += new System.EventHandler(this.titlePanel_DoubleClick);
             // 
             // lblPanelTitle
             // 
@@ -75,17 +76,18 @@ namespace SDRSharp.CollapsiblePanel
             this.togglingImage.Image = global::SDRSharp.CollapsiblePanel.Properties.Resources.ExpandedIcon;
             this.togglingImage.Location = new System.Drawing.Point(3, 3);
             this.togglingImage.Name = "togglingImage";
-            this.togglingImage.Size = new System.Drawing.Size(14, 13);
+            this.togglingImage.Size = new System.Drawing.Size(14, 12);
             this.togglingImage.TabIndex = 0;
             this.togglingImage.TabStop = false;
             this.togglingImage.Click += new System.EventHandler(this.ToggleState);
             // 
             // CollapsiblePanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.titlePanel);
             this.Name = "CollapsiblePanel";
+            this.Size = new System.Drawing.Size(150, 138);
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.togglingImage)).EndInit();

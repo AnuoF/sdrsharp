@@ -1,0 +1,11 @@
+D:\Git\sdrsharp\Debug\SDRSharp.FrequencyManager.dll
+D:\Git\sdrsharp\Debug\SDRSharp.FrequencyManager.pdb
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csprojAssemblyReference.cache
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.DialogEntryInfo.resources
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.FrequencyManagerPanel.resources
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.Properties.Resources.resources
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.GenerateResource.cache
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.CopyComplete
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.dll
+D:\Git\sdrsharp\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.pdb

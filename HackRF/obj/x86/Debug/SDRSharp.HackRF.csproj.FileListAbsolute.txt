@@ -1,0 +1,8 @@
+D:\Git\sdrsharp\Debug\SDRSharp.HackRF.dll
+D:\Git\sdrsharp\Debug\SDRSharp.HackRF.pdb
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.HackRFControllerDialog.resources
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.csproj.GenerateResource.cache
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.csproj.CopyComplete
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.dll
+D:\Git\sdrsharp\HackRF\obj\x86\Debug\SDRSharp.HackRF.pdb

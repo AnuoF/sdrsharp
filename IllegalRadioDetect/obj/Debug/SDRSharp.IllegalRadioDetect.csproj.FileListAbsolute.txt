@@ -1,0 +1,29 @@
+D:\Git\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.dll
+D:\Git\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.pdb
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csprojAssemblyReference.cache
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.IllegalRadioDetectPanel.resources
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csproj.GenerateResource.cache
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.dll
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.pdb
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.formSampleAudioMgr.resources
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.IllegalRadioDetectPanel.resources
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csproj.GenerateResource.Cache
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csprojResolveAssemblyReference.cache
+F:\Git\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.dll
+F:\Git\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.pdb
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.dll
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.pdb
+F:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.SimpleAudioPanel.resources
+D:\sdrsharp 7.8\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.dll
+D:\sdrsharp 7.8\sdrsharp\Debug\SDRSharp.IllegalRadioDetect.pdb
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csprojAssemblyReference.cache
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.formSampleAudioMgr.resources
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.IllegalRadioDetectPanel.resources
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.SimpleAudioPanel.resources
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csproj.GenerateResource.cache
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.csproj.CoreCompileInputs.cache
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.dll
+D:\sdrsharp 7.8\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.pdb
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.formSampleAudioMgr.resources
+D:\Git\sdrsharp\IllegalRadioDetect\obj\Debug\SDRSharp.IllegalRadioDetect.SimpleAudioPanel.resources

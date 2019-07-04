@@ -1,0 +1,8 @@
+D:\Git\sdrsharp\CollapsiblePanel\bin\x86\Debug\SDRSharp.CollapsiblePanel.dll
+D:\Git\sdrsharp\CollapsiblePanel\bin\x86\Debug\SDRSharp.CollapsiblePanel.pdb
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.CollapsiblePanel.resources
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.Properties.Resources.resources
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csproj.GenerateResource.cache
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.dll
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.pdb

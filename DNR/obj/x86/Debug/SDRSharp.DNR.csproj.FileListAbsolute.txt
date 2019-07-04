@@ -1,0 +1,9 @@
+D:\Git\sdrsharp\Debug\SDRSharp.DNR.dll
+D:\Git\sdrsharp\Debug\SDRSharp.DNR.pdb
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.csprojAssemblyReference.cache
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.AudioProcessorPanel.resources
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.csproj.GenerateResource.cache
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.csproj.CopyComplete
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.dll
+D:\Git\sdrsharp\DNR\obj\x86\Debug\SDRSharp.DNR.pdb

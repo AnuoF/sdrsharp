@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfMemoryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>101.700 MHz WFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>101700000</Frequency>
+    <DetectorType>WFM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>200000</FilterBandwidth>
+  </MemoryEntry>
+  <MemoryEntry>
+    <IsFavourite>true</IsFavourite>
+    <Name>102.600 MHz WFM</Name>
+    <GroupName>Misc</GroupName>
+    <Frequency>102600000</Frequency>
+    <DetectorType>WFM</DetectorType>
+    <Shift>0</Shift>
+    <FilterBandwidth>150000</FilterBandwidth>
+  </MemoryEntry>
+</ArrayOfMemoryEntry>

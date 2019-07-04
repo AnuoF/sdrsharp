@@ -1,0 +1,3 @@
+未实现该方法或操作。
+   在 SDRSharp.IllegalRadioDetect.SimpleRecorder.Dispose()
+   在 SDRSharp.IllegalRadioDetect.SimpleRecorder.Finalize()

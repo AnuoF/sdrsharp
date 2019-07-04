@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeEditRecord>
+  
+  <All>
+    <item value="所有项目从3.5改成4.0"/>
+    <item value="新增AsrLibrary语音识别库和IllegalRadioDetect黑广播检测模块"/>
+
+  </All>
+  
+  <SDRSharp>
+    <item value=""/>
+
+  </SDRSharp>
+
+  <SDRSharp.CollapsiblePanel>
+    <item value="双击Titile时更改收缩或伸展状态"/>
+  </SDRSharp.CollapsiblePanel>
+  
+</CodeEditRecord>
+  

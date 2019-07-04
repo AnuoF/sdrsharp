@@ -1,0 +1,9 @@
+D:\Git\sdrsharp\Debug\SDRSharp.RTLSDR.dll
+D:\Git\sdrsharp\Debug\SDRSharp.RTLSDR.pdb
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.Properties.Resources.resources
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.RtlSdrControllerDialog.resources
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.GenerateResource.cache
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.CopyComplete
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.dll
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.pdb

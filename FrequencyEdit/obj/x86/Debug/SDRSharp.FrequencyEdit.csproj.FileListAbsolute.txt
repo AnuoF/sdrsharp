@@ -1,0 +1,8 @@
+D:\Git\sdrsharp\Debug\SDRSharp.FrequencyEdit.dll
+D:\Git\sdrsharp\Debug\SDRSharp.FrequencyEdit.pdb
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.Properties.Resources.resources
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.csproj.GenerateResource.cache
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.dll
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.pdb
+D:\Git\sdrsharp\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.csprojAssemblyReference.cache

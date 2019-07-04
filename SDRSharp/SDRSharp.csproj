@@ -26,7 +26,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <RunPostBuildEvent>Always</RunPostBuildEvent>
     <UseHostCompilerIfAvailable>False</UseHostCompilerIfAvailable>
     <PublishUrl>publish\</PublishUrl>
@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mixer.ico" />
+    <Content Include="SDRSharp源码修改记录.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

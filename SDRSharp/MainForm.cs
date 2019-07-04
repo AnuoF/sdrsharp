@@ -914,7 +914,7 @@ namespace SDRSharp
 
         private void iqTimer_Tick(object sender, EventArgs e)
         {
-            Text = string.Format(_baseTitle + " - IQ Imbalance: Gain = {0:F3} Phase = {1:F3}°", _iqBalancer.Gain, _iqBalancer.Phase * 180 / Math.PI);
+            Text = string.Format(_baseTitle + " - IQ Imbalance: Gain = {0:F3} Phase = {1:F3}?", _iqBalancer.Gain, _iqBalancer.Phase * 180 / Math.PI);
             if (_vfo.SignalIsStereo)
             {
                 Text += " ((( stereo )))";
@@ -927,7 +927,7 @@ namespace SDRSharp
                 {
                     spectrumAnalyzer.StatusText = _vfo.RdsStationName;
                 }
-                if (_vfo.RdsPICode != 0)
+                if (_vfo.RdsPICode != 0)  
                 {
                     spectrumAnalyzer.StatusText += " [ " + string.Format("{0:X4}", _vfo.RdsPICode) + " ] ";
                 }

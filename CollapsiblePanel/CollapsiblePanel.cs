@@ -324,5 +324,10 @@ namespace SDRSharp.CollapsiblePanel
                 }
         }
         #endregion
+
+        private void titlePanel_DoubleClick(object sender, EventArgs e)
+        {
+            ToggleState(null, null);
+        }
     }
 }

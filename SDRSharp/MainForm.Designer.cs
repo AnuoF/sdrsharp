@@ -147,9 +147,9 @@ namespace SDRSharp
             // 
             // playStopButton
             // 
-            this.playStopButton.Location = new System.Drawing.Point(12, 11);
+            this.playStopButton.Location = new System.Drawing.Point(14, 12);
             this.playStopButton.Name = "playStopButton";
-            this.playStopButton.Size = new System.Drawing.Size(50, 25);
+            this.playStopButton.Size = new System.Drawing.Size(60, 27);
             this.playStopButton.TabIndex = 0;
             this.playStopButton.Text = "Play";
             this.playStopButton.Click += new System.EventHandler(this.playStopButton_Click);
@@ -159,7 +159,7 @@ namespace SDRSharp
             this.panSplitContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panSplitContainer.Location = new System.Drawing.Point(256, 42);
+            this.panSplitContainer.Location = new System.Drawing.Point(307, 45);
             this.panSplitContainer.Name = "panSplitContainer";
             this.panSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -172,8 +172,8 @@ namespace SDRSharp
             // 
             this.panSplitContainer.Panel2.Controls.Add(this.waterfall);
             this.panSplitContainer.Panel2MinSize = 10;
-            this.panSplitContainer.Size = new System.Drawing.Size(627, 662);
-            this.panSplitContainer.SplitterDistance = 212;
+            this.panSplitContainer.Size = new System.Drawing.Size(564, 658);
+            this.panSplitContainer.SplitterDistance = 210;
             this.panSplitContainer.TabIndex = 13;
             // 
             // spectrumAnalyzer
@@ -186,13 +186,15 @@ namespace SDRSharp
             this.spectrumAnalyzer.DisplayOffset = 0;
             this.spectrumAnalyzer.DisplayRange = 130;
             this.spectrumAnalyzer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spectrumAnalyzer.EnableFilter = true;
             this.spectrumAnalyzer.FilterBandwidth = 10000;
             this.spectrumAnalyzer.FilterOffset = 100;
             this.spectrumAnalyzer.Frequency = ((long)(0));
             this.spectrumAnalyzer.Location = new System.Drawing.Point(0, 0);
             this.spectrumAnalyzer.MarkPeaks = false;
             this.spectrumAnalyzer.Name = "spectrumAnalyzer";
-            this.spectrumAnalyzer.Size = new System.Drawing.Size(627, 212);
+            this.spectrumAnalyzer.ShowMaxLine = false;
+            this.spectrumAnalyzer.Size = new System.Drawing.Size(564, 210);
             this.spectrumAnalyzer.SpectrumWidth = 48000;
             this.spectrumAnalyzer.StatusText = null;
             this.spectrumAnalyzer.StepSize = 1000;
@@ -220,7 +222,7 @@ namespace SDRSharp
             this.waterfall.Frequency = ((long)(0));
             this.waterfall.Location = new System.Drawing.Point(0, 0);
             this.waterfall.Name = "waterfall";
-            this.waterfall.Size = new System.Drawing.Size(627, 446);
+            this.waterfall.Size = new System.Drawing.Size(564, 444);
             this.waterfall.SpectrumWidth = 48000;
             this.waterfall.StepSize = 0;
             this.waterfall.TabIndex = 0;
@@ -242,13 +244,13 @@ namespace SDRSharp
             // fftContrastTrackBar
             // 
             this.fftContrastTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fftContrastTrackBar.Location = new System.Drawing.Point(890, 262);
+            this.fftContrastTrackBar.Location = new System.Drawing.Point(879, 282);
             this.fftContrastTrackBar.Maximum = 24;
             this.fftContrastTrackBar.Minimum = -24;
             this.fftContrastTrackBar.Name = "fftContrastTrackBar";
             this.fftContrastTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.fftContrastTrackBar.RightToLeftLayout = true;
-            this.fftContrastTrackBar.Size = new System.Drawing.Size(45, 184);
+            this.fftContrastTrackBar.Size = new System.Drawing.Size(45, 198);
             this.fftContrastTrackBar.TabIndex = 17;
             this.fftContrastTrackBar.TickFrequency = 6;
             this.fftContrastTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
@@ -257,12 +259,12 @@ namespace SDRSharp
             // fftZoomTrackBar
             // 
             this.fftZoomTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fftZoomTrackBar.Location = new System.Drawing.Point(890, 58);
+            this.fftZoomTrackBar.Location = new System.Drawing.Point(879, 62);
             this.fftZoomTrackBar.Maximum = 50;
             this.fftZoomTrackBar.Name = "fftZoomTrackBar";
             this.fftZoomTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.fftZoomTrackBar.RightToLeftLayout = true;
-            this.fftZoomTrackBar.Size = new System.Drawing.Size(45, 184);
+            this.fftZoomTrackBar.Size = new System.Drawing.Size(45, 199);
             this.fftZoomTrackBar.TabIndex = 18;
             this.fftZoomTrackBar.TickFrequency = 5;
             this.fftZoomTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
@@ -272,9 +274,9 @@ namespace SDRSharp
             // 
             this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(895, 42);
+            this.label19.Location = new System.Drawing.Point(885, 45);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(34, 13);
+            this.label19.Size = new System.Drawing.Size(29, 12);
             this.label19.TabIndex = 19;
             this.label19.Text = "Zoom";
             // 
@@ -282,9 +284,9 @@ namespace SDRSharp
             // 
             this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(889, 246);
+            this.label20.Location = new System.Drawing.Point(878, 265);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(46, 13);
+            this.label20.Size = new System.Drawing.Size(53, 12);
             this.label20.TabIndex = 20;
             this.label20.Text = "Contrast";
             // 
@@ -298,7 +300,7 @@ namespace SDRSharp
             this.controlPanel.Controls.Add(this.agcCollapsiblePanel);
             this.controlPanel.Location = new System.Drawing.Point(0, 0);
             this.controlPanel.Name = "controlPanel";
-            this.controlPanel.Size = new System.Drawing.Size(220, 1090);
+            this.controlPanel.Size = new System.Drawing.Size(263, 1241);
             this.controlPanel.TabIndex = 25;
             // 
             // radioCollapsiblePanel
@@ -330,20 +332,20 @@ namespace SDRSharp
             this.radioCollapsiblePanel.Controls.Add(this.filterTypeComboBox);
             this.radioCollapsiblePanel.Controls.Add(this.label5);
             this.radioCollapsiblePanel.Controls.Add(this.swapIQCheckBox);
-            this.radioCollapsiblePanel.ExpandedHeight = 277;
+            this.radioCollapsiblePanel.ExpandedHeight = 302;
             this.radioCollapsiblePanel.Location = new System.Drawing.Point(0, 2);
             this.radioCollapsiblePanel.Name = "radioCollapsiblePanel";
             this.radioCollapsiblePanel.NextPanel = this.audioCollapsiblePanel;
             this.radioCollapsiblePanel.PanelTitle = "Radio";
-            this.radioCollapsiblePanel.Size = new System.Drawing.Size(217, 297);
+            this.radioCollapsiblePanel.Size = new System.Drawing.Size(260, 320);
             this.radioCollapsiblePanel.TabIndex = 21;
             // 
             // rawRadioButton
             // 
             this.rawRadioButton.AutoSize = true;
-            this.rawRadioButton.Location = new System.Drawing.Point(154, 49);
+            this.rawRadioButton.Location = new System.Drawing.Point(185, 53);
             this.rawRadioButton.Name = "rawRadioButton";
-            this.rawRadioButton.Size = new System.Drawing.Size(51, 17);
+            this.rawRadioButton.Size = new System.Drawing.Size(41, 16);
             this.rawRadioButton.TabIndex = 7;
             this.rawRadioButton.Text = "RAW";
             this.rawRadioButton.UseVisualStyleBackColor = true;
@@ -352,9 +354,9 @@ namespace SDRSharp
             // frequencyShiftCheckBox
             // 
             this.frequencyShiftCheckBox.AutoSize = true;
-            this.frequencyShiftCheckBox.Location = new System.Drawing.Point(9, 77);
+            this.frequencyShiftCheckBox.Location = new System.Drawing.Point(11, 83);
             this.frequencyShiftCheckBox.Name = "frequencyShiftCheckBox";
-            this.frequencyShiftCheckBox.Size = new System.Drawing.Size(47, 17);
+            this.frequencyShiftCheckBox.Size = new System.Drawing.Size(54, 16);
             this.frequencyShiftCheckBox.TabIndex = 10;
             this.frequencyShiftCheckBox.Text = "Shift";
             this.frequencyShiftCheckBox.UseVisualStyleBackColor = true;
@@ -362,10 +364,10 @@ namespace SDRSharp
             // 
             // markPeaksCheckBox
             // 
-            this.markPeaksCheckBox.Location = new System.Drawing.Point(111, 273);
+            this.markPeaksCheckBox.Location = new System.Drawing.Point(133, 294);
             this.markPeaksCheckBox.Name = "markPeaksCheckBox";
             this.markPeaksCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.markPeaksCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.markPeaksCheckBox.Size = new System.Drawing.Size(113, 18);
             this.markPeaksCheckBox.TabIndex = 33;
             this.markPeaksCheckBox.Text = "Mark Peaks";
             this.markPeaksCheckBox.UseVisualStyleBackColor = true;
@@ -380,7 +382,7 @@ namespace SDRSharp
             0,
             0,
             0});
-            this.frequencyShiftNumericUpDown.Location = new System.Drawing.Point(70, 72);
+            this.frequencyShiftNumericUpDown.Location = new System.Drawing.Point(84, 78);
             this.frequencyShiftNumericUpDown.Maximum = new decimal(new int[] {
             276447232,
             23283,
@@ -392,7 +394,7 @@ namespace SDRSharp
             0,
             -2147483648});
             this.frequencyShiftNumericUpDown.Name = "frequencyShiftNumericUpDown";
-            this.frequencyShiftNumericUpDown.Size = new System.Drawing.Size(134, 24);
+            this.frequencyShiftNumericUpDown.Size = new System.Drawing.Size(161, 24);
             this.frequencyShiftNumericUpDown.TabIndex = 11;
             this.frequencyShiftNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.frequencyShiftNumericUpDown.ThousandsSeparator = true;
@@ -401,9 +403,9 @@ namespace SDRSharp
             // cwRadioButton
             // 
             this.cwRadioButton.AutoSize = true;
-            this.cwRadioButton.Location = new System.Drawing.Point(106, 49);
+            this.cwRadioButton.Location = new System.Drawing.Point(127, 53);
             this.cwRadioButton.Name = "cwRadioButton";
-            this.cwRadioButton.Size = new System.Drawing.Size(43, 17);
+            this.cwRadioButton.Size = new System.Drawing.Size(35, 16);
             this.cwRadioButton.TabIndex = 6;
             this.cwRadioButton.Text = "CW";
             this.cwRadioButton.UseVisualStyleBackColor = true;
@@ -412,9 +414,9 @@ namespace SDRSharp
             // nfmRadioButton
             // 
             this.nfmRadioButton.AutoSize = true;
-            this.nfmRadioButton.Location = new System.Drawing.Point(7, 26);
+            this.nfmRadioButton.Location = new System.Drawing.Point(8, 28);
             this.nfmRadioButton.Name = "nfmRadioButton";
-            this.nfmRadioButton.Size = new System.Drawing.Size(48, 17);
+            this.nfmRadioButton.Size = new System.Drawing.Size(41, 16);
             this.nfmRadioButton.TabIndex = 0;
             this.nfmRadioButton.Text = "NFM";
             this.nfmRadioButton.UseVisualStyleBackColor = true;
@@ -422,9 +424,9 @@ namespace SDRSharp
             // 
             // useSquelchCheckBox
             // 
-            this.useSquelchCheckBox.Location = new System.Drawing.Point(10, 165);
+            this.useSquelchCheckBox.Location = new System.Drawing.Point(12, 178);
             this.useSquelchCheckBox.Name = "useSquelchCheckBox";
-            this.useSquelchCheckBox.Size = new System.Drawing.Size(69, 17);
+            this.useSquelchCheckBox.Size = new System.Drawing.Size(83, 18);
             this.useSquelchCheckBox.TabIndex = 17;
             this.useSquelchCheckBox.Text = "Squelch";
             this.useSquelchCheckBox.UseVisualStyleBackColor = true;
@@ -433,10 +435,10 @@ namespace SDRSharp
             // fmStereoCheckBox
             // 
             this.fmStereoCheckBox.Enabled = false;
-            this.fmStereoCheckBox.Location = new System.Drawing.Point(6, 273);
+            this.fmStereoCheckBox.Location = new System.Drawing.Point(7, 294);
             this.fmStereoCheckBox.Name = "fmStereoCheckBox";
             this.fmStereoCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fmStereoCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.fmStereoCheckBox.Size = new System.Drawing.Size(113, 18);
             this.fmStereoCheckBox.TabIndex = 24;
             this.fmStereoCheckBox.Text = "FM Stereo";
             this.fmStereoCheckBox.UseVisualStyleBackColor = true;
@@ -445,9 +447,9 @@ namespace SDRSharp
             // dsbRadioButton
             // 
             this.dsbRadioButton.AutoSize = true;
-            this.dsbRadioButton.Location = new System.Drawing.Point(60, 49);
+            this.dsbRadioButton.Location = new System.Drawing.Point(72, 53);
             this.dsbRadioButton.Name = "dsbRadioButton";
-            this.dsbRadioButton.Size = new System.Drawing.Size(47, 17);
+            this.dsbRadioButton.Size = new System.Drawing.Size(41, 16);
             this.dsbRadioButton.TabIndex = 5;
             this.dsbRadioButton.Text = "DSB";
             this.dsbRadioButton.UseVisualStyleBackColor = true;
@@ -456,9 +458,9 @@ namespace SDRSharp
             // wfmRadioButton
             // 
             this.wfmRadioButton.AutoSize = true;
-            this.wfmRadioButton.Location = new System.Drawing.Point(7, 49);
+            this.wfmRadioButton.Location = new System.Drawing.Point(8, 53);
             this.wfmRadioButton.Name = "wfmRadioButton";
-            this.wfmRadioButton.Size = new System.Drawing.Size(51, 17);
+            this.wfmRadioButton.Size = new System.Drawing.Size(41, 16);
             this.wfmRadioButton.TabIndex = 4;
             this.wfmRadioButton.Text = "WFM";
             this.wfmRadioButton.UseVisualStyleBackColor = true;
@@ -467,9 +469,9 @@ namespace SDRSharp
             // amRadioButton
             // 
             this.amRadioButton.AutoSize = true;
-            this.amRadioButton.Location = new System.Drawing.Point(60, 26);
+            this.amRadioButton.Location = new System.Drawing.Point(72, 28);
             this.amRadioButton.Name = "amRadioButton";
-            this.amRadioButton.Size = new System.Drawing.Size(41, 17);
+            this.amRadioButton.Size = new System.Drawing.Size(35, 16);
             this.amRadioButton.TabIndex = 1;
             this.amRadioButton.Text = "AM";
             this.amRadioButton.UseVisualStyleBackColor = true;
@@ -477,10 +479,10 @@ namespace SDRSharp
             // 
             // snapFrequencyCheckBox
             // 
-            this.snapFrequencyCheckBox.Location = new System.Drawing.Point(6, 225);
+            this.snapFrequencyCheckBox.Location = new System.Drawing.Point(7, 242);
             this.snapFrequencyCheckBox.Name = "snapFrequencyCheckBox";
             this.snapFrequencyCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.snapFrequencyCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.snapFrequencyCheckBox.Size = new System.Drawing.Size(113, 19);
             this.snapFrequencyCheckBox.TabIndex = 20;
             this.snapFrequencyCheckBox.Text = "Snap to grid";
             this.snapFrequencyCheckBox.UseVisualStyleBackColor = true;
@@ -489,9 +491,9 @@ namespace SDRSharp
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(112, 166);
+            this.label15.Location = new System.Drawing.Point(134, 179);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 13);
+            this.label15.Size = new System.Drawing.Size(53, 12);
             this.label15.TabIndex = 32;
             this.label15.Text = "CW Shift";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -499,9 +501,9 @@ namespace SDRSharp
             // lsbRadioButton
             // 
             this.lsbRadioButton.AutoSize = true;
-            this.lsbRadioButton.Location = new System.Drawing.Point(106, 26);
+            this.lsbRadioButton.Location = new System.Drawing.Point(127, 28);
             this.lsbRadioButton.Name = "lsbRadioButton";
-            this.lsbRadioButton.Size = new System.Drawing.Size(45, 17);
+            this.lsbRadioButton.Size = new System.Drawing.Size(41, 16);
             this.lsbRadioButton.TabIndex = 2;
             this.lsbRadioButton.Text = "LSB";
             this.lsbRadioButton.UseVisualStyleBackColor = true;
@@ -510,7 +512,7 @@ namespace SDRSharp
             // cwShiftNumericUpDown
             // 
             this.cwShiftNumericUpDown.Enabled = false;
-            this.cwShiftNumericUpDown.Location = new System.Drawing.Point(111, 183);
+            this.cwShiftNumericUpDown.Location = new System.Drawing.Point(133, 197);
             this.cwShiftNumericUpDown.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -522,7 +524,7 @@ namespace SDRSharp
             0,
             -2147483648});
             this.cwShiftNumericUpDown.Name = "cwShiftNumericUpDown";
-            this.cwShiftNumericUpDown.Size = new System.Drawing.Size(94, 20);
+            this.cwShiftNumericUpDown.Size = new System.Drawing.Size(113, 21);
             this.cwShiftNumericUpDown.TabIndex = 19;
             this.cwShiftNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.cwShiftNumericUpDown.Value = new decimal(new int[] {
@@ -535,9 +537,9 @@ namespace SDRSharp
             // usbRadioButton
             // 
             this.usbRadioButton.AutoSize = true;
-            this.usbRadioButton.Location = new System.Drawing.Point(154, 26);
+            this.usbRadioButton.Location = new System.Drawing.Point(185, 28);
             this.usbRadioButton.Name = "usbRadioButton";
-            this.usbRadioButton.Size = new System.Drawing.Size(47, 17);
+            this.usbRadioButton.Size = new System.Drawing.Size(41, 16);
             this.usbRadioButton.TabIndex = 3;
             this.usbRadioButton.Text = "USB";
             this.usbRadioButton.UseVisualStyleBackColor = true;
@@ -545,10 +547,10 @@ namespace SDRSharp
             // 
             // correctIQCheckBox
             // 
-            this.correctIQCheckBox.Location = new System.Drawing.Point(6, 250);
+            this.correctIQCheckBox.Location = new System.Drawing.Point(7, 269);
             this.correctIQCheckBox.Name = "correctIQCheckBox";
             this.correctIQCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.correctIQCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.correctIQCheckBox.Size = new System.Drawing.Size(113, 19);
             this.correctIQCheckBox.TabIndex = 22;
             this.correctIQCheckBox.Text = "Correct IQ";
             this.correctIQCheckBox.UseVisualStyleBackColor = true;
@@ -557,9 +559,9 @@ namespace SDRSharp
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(112, 206);
+            this.label18.Location = new System.Drawing.Point(134, 222);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(50, 13);
+            this.label18.Size = new System.Drawing.Size(59, 12);
             this.label18.TabIndex = 30;
             this.label18.Text = "Step size";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -596,18 +598,18 @@ namespace SDRSharp
             "400 kHz",
             "450 kHz",
             "500 kHz"});
-            this.stepSizeComboBox.Location = new System.Drawing.Point(111, 223);
+            this.stepSizeComboBox.Location = new System.Drawing.Point(133, 240);
             this.stepSizeComboBox.Name = "stepSizeComboBox";
-            this.stepSizeComboBox.Size = new System.Drawing.Size(94, 21);
+            this.stepSizeComboBox.Size = new System.Drawing.Size(113, 20);
             this.stepSizeComboBox.TabIndex = 21;
             this.stepSizeComboBox.SelectedIndexChanged += new System.EventHandler(this.stepSizeComboBox_SelectedIndexChanged);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 105);
+            this.label16.Location = new System.Drawing.Point(7, 113);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 13);
+            this.label16.Size = new System.Drawing.Size(71, 12);
             this.label16.TabIndex = 26;
             this.label16.Text = "Filter type";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -619,7 +621,7 @@ namespace SDRSharp
             0,
             0,
             0});
-            this.filterBandwidthNumericUpDown.Location = new System.Drawing.Point(6, 143);
+            this.filterBandwidthNumericUpDown.Location = new System.Drawing.Point(7, 154);
             this.filterBandwidthNumericUpDown.Maximum = new decimal(new int[] {
             250000,
             0,
@@ -631,7 +633,7 @@ namespace SDRSharp
             0,
             0});
             this.filterBandwidthNumericUpDown.Name = "filterBandwidthNumericUpDown";
-            this.filterBandwidthNumericUpDown.Size = new System.Drawing.Size(94, 20);
+            this.filterBandwidthNumericUpDown.Size = new System.Drawing.Size(113, 21);
             this.filterBandwidthNumericUpDown.TabIndex = 15;
             this.filterBandwidthNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.filterBandwidthNumericUpDown.Value = new decimal(new int[] {
@@ -648,7 +650,7 @@ namespace SDRSharp
             0,
             0,
             0});
-            this.filterOrderNumericUpDown.Location = new System.Drawing.Point(111, 143);
+            this.filterOrderNumericUpDown.Location = new System.Drawing.Point(133, 154);
             this.filterOrderNumericUpDown.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -660,7 +662,7 @@ namespace SDRSharp
             0,
             0});
             this.filterOrderNumericUpDown.Name = "filterOrderNumericUpDown";
-            this.filterOrderNumericUpDown.Size = new System.Drawing.Size(94, 20);
+            this.filterOrderNumericUpDown.Size = new System.Drawing.Size(113, 21);
             this.filterOrderNumericUpDown.TabIndex = 16;
             this.filterOrderNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.filterOrderNumericUpDown.Value = new decimal(new int[] {
@@ -673,9 +675,9 @@ namespace SDRSharp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 126);
+            this.label1.Location = new System.Drawing.Point(7, 136);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(101, 12);
             this.label1.TabIndex = 16;
             this.label1.Text = "Filter bandwidth";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -683,9 +685,9 @@ namespace SDRSharp
             // squelchNumericUpDown
             // 
             this.squelchNumericUpDown.Enabled = false;
-            this.squelchNumericUpDown.Location = new System.Drawing.Point(6, 183);
+            this.squelchNumericUpDown.Location = new System.Drawing.Point(7, 197);
             this.squelchNumericUpDown.Name = "squelchNumericUpDown";
-            this.squelchNumericUpDown.Size = new System.Drawing.Size(94, 20);
+            this.squelchNumericUpDown.Size = new System.Drawing.Size(113, 21);
             this.squelchNumericUpDown.TabIndex = 18;
             this.squelchNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.squelchNumericUpDown.ValueChanged += new System.EventHandler(this.squelchNumericUpDown_ValueChanged);
@@ -701,28 +703,28 @@ namespace SDRSharp
             "Blackman-Harris 7",
             "Hann-Poisson",
             "Youssef"});
-            this.filterTypeComboBox.Location = new System.Drawing.Point(70, 102);
+            this.filterTypeComboBox.Location = new System.Drawing.Point(84, 110);
             this.filterTypeComboBox.Name = "filterTypeComboBox";
-            this.filterTypeComboBox.Size = new System.Drawing.Size(134, 21);
+            this.filterTypeComboBox.Size = new System.Drawing.Size(161, 20);
             this.filterTypeComboBox.TabIndex = 14;
             this.filterTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.filterTypeComboBox_SelectedIndexChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(112, 126);
+            this.label5.Location = new System.Drawing.Point(134, 136);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.Size = new System.Drawing.Size(77, 12);
             this.label5.TabIndex = 20;
             this.label5.Text = "Filter order";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // swapIQCheckBox
             // 
-            this.swapIQCheckBox.Location = new System.Drawing.Point(111, 250);
+            this.swapIQCheckBox.Location = new System.Drawing.Point(133, 269);
             this.swapIQCheckBox.Name = "swapIQCheckBox";
             this.swapIQCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.swapIQCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.swapIQCheckBox.Size = new System.Drawing.Size(113, 19);
             this.swapIQCheckBox.TabIndex = 23;
             this.swapIQCheckBox.Text = "Swap I && Q";
             this.swapIQCheckBox.UseVisualStyleBackColor = true;
@@ -742,19 +744,19 @@ namespace SDRSharp
             this.audioCollapsiblePanel.Controls.Add(this.outputDeviceComboBox);
             this.audioCollapsiblePanel.Controls.Add(this.inputDeviceComboBox);
             this.audioCollapsiblePanel.Controls.Add(this.label11);
-            this.audioCollapsiblePanel.ExpandedHeight = 176;
-            this.audioCollapsiblePanel.Location = new System.Drawing.Point(0, 299);
+            this.audioCollapsiblePanel.ExpandedHeight = 193;
+            this.audioCollapsiblePanel.Location = new System.Drawing.Point(0, 347);
             this.audioCollapsiblePanel.Name = "audioCollapsiblePanel";
             this.audioCollapsiblePanel.NextPanel = this.agcCollapsiblePanel;
             this.audioCollapsiblePanel.PanelTitle = "Audio";
-            this.audioCollapsiblePanel.Size = new System.Drawing.Size(217, 196);
+            this.audioCollapsiblePanel.Size = new System.Drawing.Size(260, 211);
             this.audioCollapsiblePanel.TabIndex = 22;
             // 
             // unityGainCheckBox
             // 
-            this.unityGainCheckBox.Location = new System.Drawing.Point(9, 177);
+            this.unityGainCheckBox.Location = new System.Drawing.Point(11, 191);
             this.unityGainCheckBox.Name = "unityGainCheckBox";
-            this.unityGainCheckBox.Size = new System.Drawing.Size(87, 17);
+            this.unityGainCheckBox.Size = new System.Drawing.Size(104, 18);
             this.unityGainCheckBox.TabIndex = 5;
             this.unityGainCheckBox.Text = "Unity Gain";
             this.unityGainCheckBox.UseVisualStyleBackColor = true;
@@ -762,11 +764,11 @@ namespace SDRSharp
             // 
             // audioGainTrackBar
             // 
-            this.audioGainTrackBar.Location = new System.Drawing.Point(57, 24);
+            this.audioGainTrackBar.Location = new System.Drawing.Point(68, 26);
             this.audioGainTrackBar.Maximum = 40;
             this.audioGainTrackBar.Minimum = 15;
             this.audioGainTrackBar.Name = "audioGainTrackBar";
-            this.audioGainTrackBar.Size = new System.Drawing.Size(156, 45);
+            this.audioGainTrackBar.Size = new System.Drawing.Size(188, 45);
             this.audioGainTrackBar.TabIndex = 0;
             this.audioGainTrackBar.TickFrequency = 5;
             this.audioGainTrackBar.Value = 30;
@@ -774,7 +776,7 @@ namespace SDRSharp
             // 
             // latencyNumericUpDown
             // 
-            this.latencyNumericUpDown.Location = new System.Drawing.Point(125, 151);
+            this.latencyNumericUpDown.Location = new System.Drawing.Point(150, 163);
             this.latencyNumericUpDown.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -786,7 +788,7 @@ namespace SDRSharp
             0,
             0});
             this.latencyNumericUpDown.Name = "latencyNumericUpDown";
-            this.latencyNumericUpDown.Size = new System.Drawing.Size(79, 20);
+            this.latencyNumericUpDown.Size = new System.Drawing.Size(95, 21);
             this.latencyNumericUpDown.TabIndex = 4;
             this.latencyNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.latencyNumericUpDown.Value = new decimal(new int[] {
@@ -797,9 +799,9 @@ namespace SDRSharp
             // 
             // filterAudioCheckBox
             // 
-            this.filterAudioCheckBox.Location = new System.Drawing.Point(125, 177);
+            this.filterAudioCheckBox.Location = new System.Drawing.Point(150, 191);
             this.filterAudioCheckBox.Name = "filterAudioCheckBox";
-            this.filterAudioCheckBox.Size = new System.Drawing.Size(87, 17);
+            this.filterAudioCheckBox.Size = new System.Drawing.Size(104, 18);
             this.filterAudioCheckBox.TabIndex = 6;
             this.filterAudioCheckBox.Text = "Filter Audio";
             this.filterAudioCheckBox.UseVisualStyleBackColor = true;
@@ -808,18 +810,18 @@ namespace SDRSharp
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 153);
+            this.label6.Location = new System.Drawing.Point(10, 165);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 13);
+            this.label6.Size = new System.Drawing.Size(77, 12);
             this.label6.TabIndex = 30;
             this.label6.Text = "Latency (ms)";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(7, 73);
+            this.label13.Location = new System.Drawing.Point(8, 79);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(60, 13);
+            this.label13.Size = new System.Drawing.Size(65, 12);
             this.label13.TabIndex = 28;
             this.label13.Text = "Samplerate";
             // 
@@ -841,26 +843,26 @@ namespace SDRSharp
             "125000 sample/sec",
             "150000 sample/sec",
             "192000 sample/sec"});
-            this.sampleRateComboBox.Location = new System.Drawing.Point(70, 70);
+            this.sampleRateComboBox.Location = new System.Drawing.Point(84, 75);
             this.sampleRateComboBox.Name = "sampleRateComboBox";
-            this.sampleRateComboBox.Size = new System.Drawing.Size(135, 21);
+            this.sampleRateComboBox.Size = new System.Drawing.Size(162, 20);
             this.sampleRateComboBox.TabIndex = 1;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(7, 127);
+            this.label12.Location = new System.Drawing.Point(8, 137);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(39, 13);
+            this.label12.Size = new System.Drawing.Size(41, 12);
             this.label12.TabIndex = 26;
             this.label12.Text = "Output";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 32);
+            this.label3.Location = new System.Drawing.Point(8, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(47, 12);
             this.label3.TabIndex = 9;
             this.label3.Text = "AF Gain";
             // 
@@ -869,9 +871,9 @@ namespace SDRSharp
             this.outputDeviceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.outputDeviceComboBox.DropDownWidth = 300;
             this.outputDeviceComboBox.FormattingEnabled = true;
-            this.outputDeviceComboBox.Location = new System.Drawing.Point(70, 124);
+            this.outputDeviceComboBox.Location = new System.Drawing.Point(84, 134);
             this.outputDeviceComboBox.Name = "outputDeviceComboBox";
-            this.outputDeviceComboBox.Size = new System.Drawing.Size(135, 21);
+            this.outputDeviceComboBox.Size = new System.Drawing.Size(162, 20);
             this.outputDeviceComboBox.TabIndex = 3;
             // 
             // inputDeviceComboBox
@@ -879,17 +881,17 @@ namespace SDRSharp
             this.inputDeviceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.inputDeviceComboBox.DropDownWidth = 300;
             this.inputDeviceComboBox.FormattingEnabled = true;
-            this.inputDeviceComboBox.Location = new System.Drawing.Point(70, 97);
+            this.inputDeviceComboBox.Location = new System.Drawing.Point(84, 104);
             this.inputDeviceComboBox.Name = "inputDeviceComboBox";
-            this.inputDeviceComboBox.Size = new System.Drawing.Size(135, 21);
+            this.inputDeviceComboBox.Size = new System.Drawing.Size(162, 20);
             this.inputDeviceComboBox.TabIndex = 2;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(7, 100);
+            this.label11.Location = new System.Drawing.Point(8, 108);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
+            this.label11.Size = new System.Drawing.Size(35, 12);
             this.label11.TabIndex = 24;
             this.label11.Text = "Input";
             // 
@@ -903,20 +905,20 @@ namespace SDRSharp
             this.agcCollapsiblePanel.Controls.Add(this.agcThresholdNumericUpDown);
             this.agcCollapsiblePanel.Controls.Add(this.agcDecayNumericUpDown);
             this.agcCollapsiblePanel.Controls.Add(this.label4);
-            this.agcCollapsiblePanel.ExpandedHeight = 103;
-            this.agcCollapsiblePanel.Location = new System.Drawing.Point(0, 495);
+            this.agcCollapsiblePanel.ExpandedHeight = 114;
+            this.agcCollapsiblePanel.Location = new System.Drawing.Point(0, 601);
             this.agcCollapsiblePanel.Name = "agcCollapsiblePanel";
             this.agcCollapsiblePanel.NextPanel = this.displayCollapsiblePanel;
             this.agcCollapsiblePanel.PanelTitle = "AGC";
-            this.agcCollapsiblePanel.Size = new System.Drawing.Size(217, 123);
+            this.agcCollapsiblePanel.Size = new System.Drawing.Size(260, 132);
             this.agcCollapsiblePanel.TabIndex = 23;
             // 
             // agcUseHangCheckBox
             // 
             this.agcUseHangCheckBox.AutoSize = true;
-            this.agcUseHangCheckBox.Location = new System.Drawing.Point(125, 27);
+            this.agcUseHangCheckBox.Location = new System.Drawing.Point(150, 29);
             this.agcUseHangCheckBox.Name = "agcUseHangCheckBox";
-            this.agcUseHangCheckBox.Size = new System.Drawing.Size(74, 17);
+            this.agcUseHangCheckBox.Size = new System.Drawing.Size(72, 16);
             this.agcUseHangCheckBox.TabIndex = 1;
             this.agcUseHangCheckBox.Text = "Use Hang";
             this.agcUseHangCheckBox.UseVisualStyleBackColor = true;
@@ -924,14 +926,14 @@ namespace SDRSharp
             // 
             // agcSlopeNumericUpDown
             // 
-            this.agcSlopeNumericUpDown.Location = new System.Drawing.Point(125, 97);
+            this.agcSlopeNumericUpDown.Location = new System.Drawing.Point(150, 104);
             this.agcSlopeNumericUpDown.Maximum = new decimal(new int[] {
             10,
             0,
             0,
             0});
             this.agcSlopeNumericUpDown.Name = "agcSlopeNumericUpDown";
-            this.agcSlopeNumericUpDown.Size = new System.Drawing.Size(79, 20);
+            this.agcSlopeNumericUpDown.Size = new System.Drawing.Size(95, 21);
             this.agcSlopeNumericUpDown.TabIndex = 4;
             this.agcSlopeNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.agcSlopeNumericUpDown.Value = new decimal(new int[] {
@@ -944,18 +946,18 @@ namespace SDRSharp
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(6, 99);
+            this.label22.Location = new System.Drawing.Point(7, 107);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(56, 13);
+            this.label22.Size = new System.Drawing.Size(65, 12);
             this.label22.TabIndex = 13;
             this.label22.Text = "Slope (dB)";
             // 
             // agcCheckBox
             // 
             this.agcCheckBox.AutoSize = true;
-            this.agcCheckBox.Location = new System.Drawing.Point(9, 27);
+            this.agcCheckBox.Location = new System.Drawing.Point(11, 29);
             this.agcCheckBox.Name = "agcCheckBox";
-            this.agcCheckBox.Size = new System.Drawing.Size(70, 17);
+            this.agcCheckBox.Size = new System.Drawing.Size(66, 16);
             this.agcCheckBox.TabIndex = 0;
             this.agcCheckBox.Text = "Use AGC";
             this.agcCheckBox.UseVisualStyleBackColor = true;
@@ -964,15 +966,15 @@ namespace SDRSharp
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 74);
+            this.label10.Location = new System.Drawing.Point(7, 80);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 13);
+            this.label10.Size = new System.Drawing.Size(65, 12);
             this.label10.TabIndex = 11;
             this.label10.Text = "Decay (ms)";
             // 
             // agcThresholdNumericUpDown
             // 
-            this.agcThresholdNumericUpDown.Location = new System.Drawing.Point(125, 47);
+            this.agcThresholdNumericUpDown.Location = new System.Drawing.Point(150, 51);
             this.agcThresholdNumericUpDown.Maximum = new decimal(new int[] {
             0,
             0,
@@ -984,14 +986,14 @@ namespace SDRSharp
             0,
             -2147483648});
             this.agcThresholdNumericUpDown.Name = "agcThresholdNumericUpDown";
-            this.agcThresholdNumericUpDown.Size = new System.Drawing.Size(79, 20);
+            this.agcThresholdNumericUpDown.Size = new System.Drawing.Size(95, 21);
             this.agcThresholdNumericUpDown.TabIndex = 2;
             this.agcThresholdNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.agcThresholdNumericUpDown.ValueChanged += new System.EventHandler(this.agcThresholdNumericUpDown_ValueChanged);
             // 
             // agcDecayNumericUpDown
             // 
-            this.agcDecayNumericUpDown.Location = new System.Drawing.Point(125, 72);
+            this.agcDecayNumericUpDown.Location = new System.Drawing.Point(150, 78);
             this.agcDecayNumericUpDown.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -1003,7 +1005,7 @@ namespace SDRSharp
             0,
             0});
             this.agcDecayNumericUpDown.Name = "agcDecayNumericUpDown";
-            this.agcDecayNumericUpDown.Size = new System.Drawing.Size(79, 20);
+            this.agcDecayNumericUpDown.Size = new System.Drawing.Size(95, 21);
             this.agcDecayNumericUpDown.TabIndex = 3;
             this.agcDecayNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.agcDecayNumericUpDown.Value = new decimal(new int[] {
@@ -1016,9 +1018,9 @@ namespace SDRSharp
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 49);
+            this.label4.Location = new System.Drawing.Point(7, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.Size = new System.Drawing.Size(89, 12);
             this.label4.TabIndex = 7;
             this.label4.Text = "Threshold (dB)";
             // 
@@ -1036,12 +1038,12 @@ namespace SDRSharp
             this.displayCollapsiblePanel.Controls.Add(this.gradientButton);
             this.displayCollapsiblePanel.Controls.Add(this.fftWindowComboBox);
             this.displayCollapsiblePanel.Controls.Add(this.label8);
-            this.displayCollapsiblePanel.ExpandedHeight = 449;
-            this.displayCollapsiblePanel.Location = new System.Drawing.Point(0, 618);
+            this.displayCollapsiblePanel.ExpandedHeight = 487;
+            this.displayCollapsiblePanel.Location = new System.Drawing.Point(0, 733);
             this.displayCollapsiblePanel.Name = "displayCollapsiblePanel";
             this.displayCollapsiblePanel.NextPanel = null;
             this.displayCollapsiblePanel.PanelTitle = "FFT Display";
-            this.displayCollapsiblePanel.Size = new System.Drawing.Size(217, 469);
+            this.displayCollapsiblePanel.Size = new System.Drawing.Size(260, 505);
             this.displayCollapsiblePanel.TabIndex = 24;
             // 
             // showMaxLineCheckBox
@@ -1049,9 +1051,9 @@ namespace SDRSharp
             this.showMaxLineCheckBox.AutoSize = true;
             this.showMaxLineCheckBox.Checked = true;
             this.showMaxLineCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.showMaxLineCheckBox.Location = new System.Drawing.Point(9, 125);
+            this.showMaxLineCheckBox.Location = new System.Drawing.Point(11, 135);
             this.showMaxLineCheckBox.Name = "showMaxLineCheckBox";
-            this.showMaxLineCheckBox.Size = new System.Drawing.Size(100, 17);
+            this.showMaxLineCheckBox.Size = new System.Drawing.Size(96, 16);
             this.showMaxLineCheckBox.TabIndex = 33;
             this.showMaxLineCheckBox.Text = "Show Maximum";
             this.showMaxLineCheckBox.UseVisualStyleBackColor = true;
@@ -1063,30 +1065,30 @@ namespace SDRSharp
             this.groupBox1.Controls.Add(this.fftRangeTrackBar);
             this.groupBox1.Controls.Add(this.label27);
             this.groupBox1.Controls.Add(this.label28);
-            this.groupBox1.Location = new System.Drawing.Point(0, 352);
+            this.groupBox1.Location = new System.Drawing.Point(0, 379);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(217, 111);
+            this.groupBox1.Size = new System.Drawing.Size(260, 120);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Spectrum";
             // 
             // fftOffsetTrackBar
             // 
-            this.fftOffsetTrackBar.Location = new System.Drawing.Point(58, 19);
+            this.fftOffsetTrackBar.Location = new System.Drawing.Point(70, 20);
             this.fftOffsetTrackBar.Maximum = 15;
             this.fftOffsetTrackBar.Name = "fftOffsetTrackBar";
-            this.fftOffsetTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.fftOffsetTrackBar.Size = new System.Drawing.Size(183, 45);
             this.fftOffsetTrackBar.TabIndex = 27;
             this.fftOffsetTrackBar.Scroll += new System.EventHandler(this.fftOffsetTrackBar_Scroll);
             // 
             // fftRangeTrackBar
             // 
             this.fftRangeTrackBar.LargeChange = 10;
-            this.fftRangeTrackBar.Location = new System.Drawing.Point(58, 62);
+            this.fftRangeTrackBar.Location = new System.Drawing.Point(70, 67);
             this.fftRangeTrackBar.Maximum = 15;
             this.fftRangeTrackBar.Minimum = 2;
             this.fftRangeTrackBar.Name = "fftRangeTrackBar";
-            this.fftRangeTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.fftRangeTrackBar.Size = new System.Drawing.Size(183, 45);
             this.fftRangeTrackBar.TabIndex = 28;
             this.fftRangeTrackBar.Value = 13;
             this.fftRangeTrackBar.Scroll += new System.EventHandler(this.fftRangeTrackBar_Scroll);
@@ -1094,18 +1096,18 @@ namespace SDRSharp
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(8, 71);
+            this.label27.Location = new System.Drawing.Point(10, 76);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(39, 13);
+            this.label27.Size = new System.Drawing.Size(35, 12);
             this.label27.TabIndex = 30;
             this.label27.Text = "Range";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(8, 27);
+            this.label28.Location = new System.Drawing.Point(10, 29);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(35, 13);
+            this.label28.Size = new System.Drawing.Size(41, 12);
             this.label28.TabIndex = 29;
             this.label28.Text = "Offset";
             // 
@@ -1119,49 +1121,49 @@ namespace SDRSharp
             this.smoothingGroupBox.Controls.Add(this.label25);
             this.smoothingGroupBox.Controls.Add(this.label24);
             this.smoothingGroupBox.Controls.Add(this.label26);
-            this.smoothingGroupBox.Location = new System.Drawing.Point(0, 146);
+            this.smoothingGroupBox.Location = new System.Drawing.Point(0, 157);
             this.smoothingGroupBox.Name = "smoothingGroupBox";
-            this.smoothingGroupBox.Size = new System.Drawing.Size(217, 200);
+            this.smoothingGroupBox.Size = new System.Drawing.Size(260, 216);
             this.smoothingGroupBox.TabIndex = 31;
             this.smoothingGroupBox.TabStop = false;
             this.smoothingGroupBox.Text = "Smoothing";
             // 
             // sAttackTrackBar
             // 
-            this.sAttackTrackBar.Location = new System.Drawing.Point(58, 19);
+            this.sAttackTrackBar.Location = new System.Drawing.Point(70, 20);
             this.sAttackTrackBar.Maximum = 50;
             this.sAttackTrackBar.Name = "sAttackTrackBar";
-            this.sAttackTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.sAttackTrackBar.Size = new System.Drawing.Size(183, 45);
             this.sAttackTrackBar.TabIndex = 5;
             this.sAttackTrackBar.TickFrequency = 5;
             this.sAttackTrackBar.ValueChanged += new System.EventHandler(this.sAttackTrackBar_ValueChanged);
             // 
             // sDecayTrackBar
             // 
-            this.sDecayTrackBar.Location = new System.Drawing.Point(58, 63);
+            this.sDecayTrackBar.Location = new System.Drawing.Point(70, 68);
             this.sDecayTrackBar.Maximum = 50;
             this.sDecayTrackBar.Name = "sDecayTrackBar";
-            this.sDecayTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.sDecayTrackBar.Size = new System.Drawing.Size(183, 45);
             this.sDecayTrackBar.TabIndex = 6;
             this.sDecayTrackBar.TickFrequency = 5;
             this.sDecayTrackBar.ValueChanged += new System.EventHandler(this.sDecayTrackBar_ValueChanged);
             // 
             // wAttackTrackBar
             // 
-            this.wAttackTrackBar.Location = new System.Drawing.Point(58, 107);
+            this.wAttackTrackBar.Location = new System.Drawing.Point(70, 115);
             this.wAttackTrackBar.Maximum = 50;
             this.wAttackTrackBar.Name = "wAttackTrackBar";
-            this.wAttackTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.wAttackTrackBar.Size = new System.Drawing.Size(183, 45);
             this.wAttackTrackBar.TabIndex = 7;
             this.wAttackTrackBar.TickFrequency = 5;
             this.wAttackTrackBar.ValueChanged += new System.EventHandler(this.wAttackTrackBar_ValueChanged);
             // 
             // wDecayTrackBar
             // 
-            this.wDecayTrackBar.Location = new System.Drawing.Point(58, 151);
+            this.wDecayTrackBar.Location = new System.Drawing.Point(70, 163);
             this.wDecayTrackBar.Maximum = 50;
             this.wDecayTrackBar.Name = "wDecayTrackBar";
-            this.wDecayTrackBar.Size = new System.Drawing.Size(153, 45);
+            this.wDecayTrackBar.Size = new System.Drawing.Size(183, 45);
             this.wDecayTrackBar.TabIndex = 8;
             this.wDecayTrackBar.TickFrequency = 5;
             this.wDecayTrackBar.ValueChanged += new System.EventHandler(this.wDecayTrackBar_ValueChanged);
@@ -1169,44 +1171,44 @@ namespace SDRSharp
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(6, 27);
+            this.label23.Location = new System.Drawing.Point(7, 29);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(48, 13);
+            this.label23.Size = new System.Drawing.Size(53, 12);
             this.label23.TabIndex = 23;
             this.label23.Text = "S-Attack";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(6, 157);
+            this.label25.Location = new System.Drawing.Point(7, 169);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(52, 13);
+            this.label25.Size = new System.Drawing.Size(47, 12);
             this.label25.TabIndex = 26;
             this.label25.Text = "W-Decay";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(6, 71);
+            this.label24.Location = new System.Drawing.Point(7, 76);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(48, 13);
+            this.label24.Size = new System.Drawing.Size(47, 12);
             this.label24.TabIndex = 24;
             this.label24.Text = "S-Decay";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(6, 114);
+            this.label26.Location = new System.Drawing.Point(7, 123);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 13);
+            this.label26.Size = new System.Drawing.Size(53, 12);
             this.label26.TabIndex = 25;
             this.label26.Text = "W-Attack";
             // 
             // useTimestampsCheckBox
             // 
-            this.useTimestampsCheckBox.Location = new System.Drawing.Point(9, 105);
+            this.useTimestampsCheckBox.Location = new System.Drawing.Point(11, 113);
             this.useTimestampsCheckBox.Name = "useTimestampsCheckBox";
-            this.useTimestampsCheckBox.Size = new System.Drawing.Size(107, 17);
+            this.useTimestampsCheckBox.Size = new System.Drawing.Size(128, 18);
             this.useTimestampsCheckBox.TabIndex = 3;
             this.useTimestampsCheckBox.Text = "Use time markers";
             this.useTimestampsCheckBox.UseVisualStyleBackColor = true;
@@ -1215,9 +1217,9 @@ namespace SDRSharp
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(7, 79);
+            this.label21.Location = new System.Drawing.Point(8, 85);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(57, 13);
+            this.label21.Size = new System.Drawing.Size(65, 12);
             this.label21.TabIndex = 18;
             this.label21.Text = "Resolution";
             // 
@@ -1240,27 +1242,27 @@ namespace SDRSharp
             "1048576",
             "2097152",
             "4194304"});
-            this.fftResolutionComboBox.Location = new System.Drawing.Point(70, 76);
+            this.fftResolutionComboBox.Location = new System.Drawing.Point(84, 82);
             this.fftResolutionComboBox.Name = "fftResolutionComboBox";
-            this.fftResolutionComboBox.Size = new System.Drawing.Size(135, 21);
+            this.fftResolutionComboBox.Size = new System.Drawing.Size(162, 20);
             this.fftResolutionComboBox.TabIndex = 2;
             this.fftResolutionComboBox.SelectedIndexChanged += new System.EventHandler(this.fftResolutionComboBox_SelectedIndexChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 29);
+            this.label7.Location = new System.Drawing.Point(8, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 13);
+            this.label7.Size = new System.Drawing.Size(29, 12);
             this.label7.TabIndex = 12;
             this.label7.Text = "View";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(127, 106);
+            this.label14.Location = new System.Drawing.Point(152, 114);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 13);
+            this.label14.Size = new System.Drawing.Size(53, 12);
             this.label14.TabIndex = 16;
             this.label14.Text = "Gradient";
             // 
@@ -1272,17 +1274,17 @@ namespace SDRSharp
             "Spectrum Analyzer",
             "Waterfall",
             "Both"});
-            this.viewComboBox.Location = new System.Drawing.Point(70, 26);
+            this.viewComboBox.Location = new System.Drawing.Point(84, 28);
             this.viewComboBox.Name = "viewComboBox";
-            this.viewComboBox.Size = new System.Drawing.Size(135, 21);
+            this.viewComboBox.Size = new System.Drawing.Size(162, 20);
             this.viewComboBox.TabIndex = 0;
             this.viewComboBox.SelectedIndexChanged += new System.EventHandler(this.viewComboBox_SelectedIndexChanged);
             // 
             // gradientButton
             // 
-            this.gradientButton.Location = new System.Drawing.Point(180, 101);
+            this.gradientButton.Location = new System.Drawing.Point(216, 109);
             this.gradientButton.Name = "gradientButton";
-            this.gradientButton.Size = new System.Drawing.Size(25, 23);
+            this.gradientButton.Size = new System.Drawing.Size(30, 25);
             this.gradientButton.TabIndex = 4;
             this.gradientButton.Text = "...";
             this.gradientButton.UseVisualStyleBackColor = true;
@@ -1300,27 +1302,27 @@ namespace SDRSharp
             "Blackman-Harris 7",
             "Hann-Poisson",
             "Youssef"});
-            this.fftWindowComboBox.Location = new System.Drawing.Point(70, 51);
+            this.fftWindowComboBox.Location = new System.Drawing.Point(84, 55);
             this.fftWindowComboBox.Name = "fftWindowComboBox";
-            this.fftWindowComboBox.Size = new System.Drawing.Size(135, 21);
+            this.fftWindowComboBox.Size = new System.Drawing.Size(162, 20);
             this.fftWindowComboBox.TabIndex = 1;
             this.fftWindowComboBox.SelectedIndexChanged += new System.EventHandler(this.fftWindowComboBox_SelectedIndexChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 54);
+            this.label8.Location = new System.Drawing.Point(8, 58);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 13);
+            this.label8.Size = new System.Drawing.Size(41, 12);
             this.label8.TabIndex = 14;
             this.label8.Text = "Window";
             // 
             // configureSourceButton
             // 
             this.configureSourceButton.FlatAppearance.BorderSize = 0;
-            this.configureSourceButton.Location = new System.Drawing.Point(256, 11);
+            this.configureSourceButton.Location = new System.Drawing.Point(307, 12);
             this.configureSourceButton.Name = "configureSourceButton";
-            this.configureSourceButton.Size = new System.Drawing.Size(70, 25);
+            this.configureSourceButton.Size = new System.Drawing.Size(84, 27);
             this.configureSourceButton.TabIndex = 3;
             this.configureSourceButton.Text = "Configure";
             this.configureSourceButton.UseVisualStyleBackColor = true;
@@ -1331,9 +1333,9 @@ namespace SDRSharp
             this.iqSourceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.iqSourceComboBox.DropDownWidth = 135;
             this.iqSourceComboBox.FormattingEnabled = true;
-            this.iqSourceComboBox.Location = new System.Drawing.Point(68, 13);
+            this.iqSourceComboBox.Location = new System.Drawing.Point(82, 14);
             this.iqSourceComboBox.Name = "iqSourceComboBox";
-            this.iqSourceComboBox.Size = new System.Drawing.Size(182, 21);
+            this.iqSourceComboBox.Size = new System.Drawing.Size(218, 20);
             this.iqSourceComboBox.TabIndex = 2;
             this.iqSourceComboBox.SelectedIndexChanged += new System.EventHandler(this.iqSourceComboBox_SelectedIndexChanged);
             // 
@@ -1341,22 +1343,22 @@ namespace SDRSharp
             // 
             this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(894, 449);
+            this.label17.Location = new System.Drawing.Point(884, 484);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 13);
+            this.label17.Size = new System.Drawing.Size(35, 12);
             this.label17.TabIndex = 27;
             this.label17.Text = "Speed";
             // 
             // fftSpeedTrackBar
             // 
             this.fftSpeedTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fftSpeedTrackBar.Location = new System.Drawing.Point(890, 465);
+            this.fftSpeedTrackBar.Location = new System.Drawing.Point(879, 501);
             this.fftSpeedTrackBar.Maximum = 100;
             this.fftSpeedTrackBar.Minimum = 1;
             this.fftSpeedTrackBar.Name = "fftSpeedTrackBar";
             this.fftSpeedTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.fftSpeedTrackBar.RightToLeftLayout = true;
-            this.fftSpeedTrackBar.Size = new System.Drawing.Size(45, 184);
+            this.fftSpeedTrackBar.Size = new System.Drawing.Size(45, 198);
             this.fftSpeedTrackBar.TabIndex = 26;
             this.fftSpeedTrackBar.TickFrequency = 10;
             this.fftSpeedTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
@@ -1369,17 +1371,17 @@ namespace SDRSharp
             | System.Windows.Forms.AnchorStyles.Left)));
             this.scrollPanel.AutoScroll = true;
             this.scrollPanel.Controls.Add(this.controlPanel);
-            this.scrollPanel.Location = new System.Drawing.Point(12, 42);
+            this.scrollPanel.Location = new System.Drawing.Point(14, 45);
             this.scrollPanel.Name = "scrollPanel";
-            this.scrollPanel.Size = new System.Drawing.Size(238, 662);
+            this.scrollPanel.Size = new System.Drawing.Size(286, 658);
             this.scrollPanel.TabIndex = 28;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(332, 17);
+            this.label2.Location = new System.Drawing.Point(398, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(23, 12);
             this.label2.TabIndex = 31;
             this.label2.Text = "VFO";
             // 
@@ -1389,9 +1391,9 @@ namespace SDRSharp
             this.vfoFrequencyEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.vfoFrequencyEdit.BackColor = System.Drawing.Color.Transparent;
             this.vfoFrequencyEdit.Frequency = ((long)(0));
-            this.vfoFrequencyEdit.Location = new System.Drawing.Point(366, 11);
+            this.vfoFrequencyEdit.Location = new System.Drawing.Point(439, 12);
             this.vfoFrequencyEdit.Name = "vfoFrequencyEdit";
-            this.vfoFrequencyEdit.Size = new System.Drawing.Size(234, 25);
+            this.vfoFrequencyEdit.Size = new System.Drawing.Size(280, 27);
             this.vfoFrequencyEdit.StepSize = 0;
             this.vfoFrequencyEdit.TabIndex = 30;
             this.vfoFrequencyEdit.FrequencyChanged += new System.EventHandler(this.vfoFrequencyEdit_FrequencyChanged);
@@ -1399,7 +1401,7 @@ namespace SDRSharp
             // 
             // MainForm
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
             this.ClientSize = new System.Drawing.Size(947, 716);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.vfoFrequencyEdit);
@@ -1416,7 +1418,7 @@ namespace SDRSharp
             this.Controls.Add(this.iqSourceComboBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.MinimumSize = new System.Drawing.Size(700, 400);
+            this.MinimumSize = new System.Drawing.Size(840, 431);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SDR#";

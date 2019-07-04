@@ -1,0 +1,7 @@
+D:\Git\sdrsharp\Debug\SDRSharp.SoftRock.dll
+D:\Git\sdrsharp\Debug\SDRSharp.SoftRock.pdb
+D:\Git\sdrsharp\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.csproj.CopyComplete
+D:\Git\sdrsharp\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.dll
+D:\Git\sdrsharp\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.pdb
+D:\Git\sdrsharp\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.csprojAssemblyReference.cache

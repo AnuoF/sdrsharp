@@ -1,0 +1,8 @@
+D:\Git\sdrsharp\Debug\SDRSharp.WavRecorder.dll
+D:\Git\sdrsharp\Debug\SDRSharp.WavRecorder.pdb
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.RecordingPanel.resources
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.GenerateResource.cache
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.CopyComplete
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.dll
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.pdb

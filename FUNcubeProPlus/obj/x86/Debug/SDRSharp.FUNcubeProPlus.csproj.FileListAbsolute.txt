@@ -1,0 +1,9 @@
+D:\Git\sdrsharp\Debug\SDRSharp.FUNcubeProPlus.dll
+D:\Git\sdrsharp\Debug\SDRSharp.FUNcubeProPlus.pdb
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.FCDProPlusControllerDialog.resources
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.Properties.Resources.resources
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.csproj.GenerateResource.cache
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.csproj.CopyComplete
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.dll
+D:\Git\sdrsharp\FUNcubeProPlus\obj\x86\Debug\SDRSharp.FUNcubeProPlus.pdb

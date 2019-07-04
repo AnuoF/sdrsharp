@@ -1,0 +1,8 @@
+D:\Git\sdrsharp\Debug\SDRSharp.RTLTCP.dll
+D:\Git\sdrsharp\Debug\SDRSharp.RTLTCP.pdb
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.RTLTcpSettings.resources
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.csproj.GenerateResource.cache
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.csproj.CoreCompileInputs.cache
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.csproj.CopyComplete
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.dll
+D:\Git\sdrsharp\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.pdb
