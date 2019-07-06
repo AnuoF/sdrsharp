@@ -8,7 +8,7 @@ namespace SDRSharp.FrequencyManager
 {
     public class FrequencyManagerPlugin: ISharpPlugin
     {
-        private const string _displayName = "Frequency Manager";
+        private const string _displayName = "频率管理";
         private ISharpControl _controlInterface;
         private FrequencyManagerPanel _frequencyManagerPanel;
 

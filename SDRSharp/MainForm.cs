@@ -396,8 +396,16 @@ namespace SDRSharp
             _streamControl = new StreamControl(_streamHookManager);
 
             InitializeComponent();
+
+            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine(((System.ComponentModel.Component)(this)));
+            this.skinEngine1.SkinFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Skins\\WaveColor2.ssk");
+
             InitializeGUI();            
             InitialiseSharpPlugins();
+
+          
+
+            
         }
 
         private void InitializeGUI()
@@ -602,11 +610,14 @@ namespace SDRSharp
             fftRangeTrackBar.Value = Utils.GetIntSetting("fftDisplayRange", 13);
             fftRangeTrackBar_Scroll(null, null);
 
+            spectrumAnalyzer.FillSpectrumAnalyzer = fillSpectrumAnalyzeCb.Checked = Utils.GetBooleanSetting("fillSpectrumAnalyzer");
+            spectrumAnalyzer.ShowMaxLine = showMaxLineCheckBox.Checked = Utils.GetBooleanSetting("showMaxLine");
+            spectrumAnalyzer.ShowMinLine = showMinLineCheckBox.Checked = Utils.GetBooleanSetting("showMinLine");
             #endregion
 
             #region Initialize the plugins
 
-            var frontendPlugins = (NameValueCollection) ConfigurationManager.GetSection("frontendPlugins");
+             var frontendPlugins = (NameValueCollection) ConfigurationManager.GetSection("frontendPlugins");
 
             foreach (string key in frontendPlugins.Keys)
             {
@@ -623,7 +634,7 @@ namespace SDRSharp
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error loading '" + frontendPlugins[key] + "' - " + ex.Message);
+                    //MessageBox.Show("Error loading '" + frontendPlugins[key] + "' - " + ex.Message);
                 }
             }
 
@@ -780,6 +791,7 @@ namespace SDRSharp
             Utils.SaveSetting("dsbState", Utils.IntArrayToString(_modeStates[DetectorType.DSB]));
             Utils.SaveSetting("cwState",  Utils.IntArrayToString(_modeStates[DetectorType.CW]));
             Utils.SaveSetting("rawState", Utils.IntArrayToString(_modeStates[DetectorType.RAW]));
+            Utils.SaveSetting("fillSpectrumAnalyzer", fillSpectrumAnalyzeCb.Checked);
         }
 
         #endregion
@@ -984,7 +996,7 @@ namespace SDRSharp
                 sampleRateComboBox.Enabled = true;
                 frequencyShiftCheckBox.Enabled = true;
                 frequencyShiftNumericUpDown.Enabled = frequencyShiftCheckBox.Checked;
-                configureSourceButton.Text = "Configure";
+                configureSourceButton.Text = "≈‰÷√";
                 configureSourceButton.Enabled = false;
                 SetCenterFrequency(0);
                 vfoFrequencyEdit.Frequency = _frequencyShift;
@@ -995,7 +1007,7 @@ namespace SDRSharp
 
             if (SourceIsWaveFile)
             {
-                configureSourceButton.Text = "Select";
+                configureSourceButton.Text = "—°‘Ò";
                 sampleRateComboBox.Enabled = false;
                 inputDeviceComboBox.Enabled = false;
                 outputDeviceComboBox.Enabled = true;
@@ -1014,7 +1026,7 @@ namespace SDRSharp
                 return;
             }
 
-            configureSourceButton.Text = "Configure";
+            configureSourceButton.Text = "≈‰÷√";
             frequencyShiftCheckBox.Enabled = true;
             frequencyShiftNumericUpDown.Enabled = frequencyShiftCheckBox.Checked;
 
@@ -1801,6 +1813,18 @@ namespace SDRSharp
             NotifyPropertyChanged("ShowMaxLine");
         }
 
+        private void showMinLineCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            spectrumAnalyzer.ShowMinLine = showMinLineCheckBox.Checked;
+            NotifyPropertyChanged("ShowMinLine");
+        }
+
+        private void fillSpectrumAnalyzeCb_CheckedChanged(object sender, EventArgs e)
+        {
+            spectrumAnalyzer.FillSpectrumAnalyzer = fillSpectrumAnalyzeCb.Checked;
+            NotifyPropertyChanged("FillSpectrumAnalyze");
+        }
+
         private void fftSpeedTrackBar_ValueChanged(object sender, EventArgs e)
         {
             _fftTimer.Interval = (int) (1.0 / fftSpeedTrackBar.Value * 1000.0);
@@ -1941,7 +1965,7 @@ namespace SDRSharp
 
         public void StartRadio()
         {
-            playStopButton.Text = "Stop";
+            playStopButton.Text = "Õ£÷π";
             Open();
             _streamControl.Play();
             ThreadPool.QueueUserWorkItem(ProcessFFT);
@@ -1955,7 +1979,7 @@ namespace SDRSharp
 
         public void StopRadio()
         {
-            playStopButton.Text = "Play";
+            playStopButton.Text = "≤•∑≈";
             _streamControl.Stop();
             _iqBalancer.Reset();
             _fftStream.Flush();
@@ -2012,5 +2036,6 @@ namespace SDRSharp
         }
 
         #endregion
+
     }
 }

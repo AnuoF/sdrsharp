@@ -36,3 +36,4 @@ D:\Git\sdrsharp\Debug\SDRSharp.AsrLibrary.pdb
 D:\Git\sdrsharp\AsrLibrary\obj\Debug\SDRSharp.AsrLibrary.csproj.CoreCompileInputs.cache
 D:\Git\sdrsharp\AsrLibrary\obj\Debug\SDRSharp.AsrLibrary.dll
 D:\Git\sdrsharp\AsrLibrary\obj\Debug\SDRSharp.AsrLibrary.pdb
+D:\Git\sdrsharp\AsrLibrary\obj\Debug\SDRSharp.AsrLibrary.csprojAssemblyReference.cache

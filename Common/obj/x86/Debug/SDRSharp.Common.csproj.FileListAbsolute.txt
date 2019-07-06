@@ -1,6 +1,5 @@
 D:\Git\sdrsharp\Debug\SDRSharp.Common.dll
 D:\Git\sdrsharp\Debug\SDRSharp.Common.pdb
-D:\Git\sdrsharp\Common\obj\x86\Debug\SDRSharp.Common.csprojAssemblyReference.cache
 D:\Git\sdrsharp\Common\obj\x86\Debug\SDRSharp.Common.csproj.CoreCompileInputs.cache
 D:\Git\sdrsharp\Common\obj\x86\Debug\SDRSharp.Common.csproj.CopyComplete
 D:\Git\sdrsharp\Common\obj\x86\Debug\SDRSharp.Common.dll

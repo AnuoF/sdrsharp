@@ -949,7 +949,7 @@ namespace SDRSharp.PanView
         protected override void OnMouseWheel(MouseEventArgs e)
         {
             base.OnMouseWheel(e);
-            UpdateFrequency(_frequency + _stepSize * Math.Sign(e.Delta), FrequencyChangeSource.Scroll);
+            //UpdateFrequency(_frequency + _stepSize * Math.Sign(e.Delta), FrequencyChangeSource.Scroll);
         }
     }
 

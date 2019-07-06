@@ -1,6 +1,5 @@
 D:\Git\sdrsharp\Debug\SDRSharp.FUNcube.dll
 D:\Git\sdrsharp\Debug\SDRSharp.FUNcube.pdb
-D:\Git\sdrsharp\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.csprojAssemblyReference.cache
 D:\Git\sdrsharp\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.FCDControllerDialog.resources
 D:\Git\sdrsharp\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.Properties.Resources.resources
 D:\Git\sdrsharp\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.csproj.GenerateResource.cache

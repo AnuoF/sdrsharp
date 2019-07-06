@@ -3,3 +3,4 @@ D:\Git\sdrsharp\Debug\SDRSharp.Radio.pdb
 D:\Git\sdrsharp\Radio\obj\x86\Debug\SDRSharp.Radio.csproj.CoreCompileInputs.cache
 D:\Git\sdrsharp\Radio\obj\x86\Debug\SDRSharp.Radio.dll
 D:\Git\sdrsharp\Radio\obj\x86\Debug\SDRSharp.Radio.pdb
+D:\Git\sdrsharp\Radio\obj\x86\Debug\SDRSharp.Radio.csprojAssemblyReference.cache

@@ -7,3 +7,4 @@ D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.CoreCompileInputs.ca
 D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.CopyComplete
 D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.dll
 D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.pdb
+D:\Git\sdrsharp\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csprojAssemblyReference.cache

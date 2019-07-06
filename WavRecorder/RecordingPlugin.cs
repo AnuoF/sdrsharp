@@ -5,7 +5,7 @@ namespace SDRSharp.WavRecorder
 {
     public class WavRecorderPlugin: ISharpPlugin
     {
-        private const string DefaultDisplayName = "Recording";
+        private const string DefaultDisplayName = "数据采集";
    
         private ISharpControl _control;
         private RecordingPanel _guiControl;

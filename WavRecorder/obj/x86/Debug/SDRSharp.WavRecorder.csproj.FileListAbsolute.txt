@@ -6,3 +6,4 @@ D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.CoreCompil
 D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.CopyComplete
 D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.dll
 D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.pdb
+D:\Git\sdrsharp\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csprojAssemblyReference.cache

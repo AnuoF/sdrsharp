@@ -1,3 +1,5 @@
-未实现该方法或操作。
-   在 SDRSharp.IllegalRadioDetect.SimpleRecorder.Dispose()
-   在 SDRSharp.IllegalRadioDetect.SimpleRecorder.Finalize()
+未将对象引用设置到对象的实例。
+   在 SDRSharp.PanView.SpectrumAnalyzer.set_ShowMaxLine(Boolean value) 位置 D:\Git\sdrsharp\PanView\SpectrumAnalyzer.cs:行号 335
+   在 SDRSharp.MainForm.InitializeComponent() 位置 D:\Git\sdrsharp\SDRSharp\MainForm.Designer.cs:行号 203
+   在 SDRSharp.MainForm..ctor() 位置 D:\Git\sdrsharp\SDRSharp\MainForm.cs:行号 398
+   在 SDRSharp.Program.Main() 位置 D:\Git\sdrsharp\SDRSharp\Program.cs:行号 28

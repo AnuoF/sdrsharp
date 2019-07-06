@@ -1,6 +1,5 @@
 D:\Git\sdrsharp\Debug\SDRSharp.PanView.dll
 D:\Git\sdrsharp\Debug\SDRSharp.PanView.pdb
-D:\Git\sdrsharp\PanView\obj\x86\Debug\SDRSharp.PanView.csprojAssemblyReference.cache
 D:\Git\sdrsharp\PanView\obj\x86\Debug\SDRSharp.PanView.GradientDialog.resources
 D:\Git\sdrsharp\PanView\obj\x86\Debug\SDRSharp.PanView.csproj.GenerateResource.cache
 D:\Git\sdrsharp\PanView\obj\x86\Debug\SDRSharp.PanView.csproj.CoreCompileInputs.cache

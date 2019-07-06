@@ -1,9 +1,10 @@
 D:\Git\sdrsharp\Debug\SDRSharp2.exe
 D:\Git\sdrsharp\Debug\SDRSharp2.pdb
-D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.csprojAssemblyReference.cache
 D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.Properties.Resources.resources
 D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.csproj.GenerateResource.cache
 D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.csproj.CoreCompileInputs.cache
-D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.csproj.CopyComplete
 D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.exe
 D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.pdb
+D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.MainForm.resources
+D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.FrmBase.resources
+D:\Git\sdrsharp\SDRSharp2\obj\Debug\SDRSharp2.csprojAssemblyReference.cache

@@ -6,3 +6,4 @@ D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csproj.
 D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csproj.CoreCompileInputs.cache
 D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.dll
 D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.pdb
+D:\Git\sdrsharp\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csprojAssemblyReference.cache

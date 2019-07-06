@@ -8,7 +8,7 @@ namespace SDRSharp.DNR
 {
     public class DNRPlugin: ISharpPlugin
     {
-        private const string _displayName = "Digital Noise Reduction";
+        private const string _displayName = "数字降噪";
         private ISharpControl _control;
         private AudioProcessor _audioProcessor;
                         
