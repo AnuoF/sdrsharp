@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -108,7 +109,7 @@ namespace SDRSharp.IllegalRadioDetect
             }
 
             _wavSampleFormat = recordingFormat;
-            _format = new WavFormatHeader(recordingFormat, 2, sampleRate);
+            _format = new WavFormatHeader(recordingFormat, 1, sampleRate);
         }
 
         #region Public Methods
@@ -227,6 +228,8 @@ namespace SDRSharp.IllegalRadioDetect
 
             var ptr = data;
 
+            List<byte> left = new List<byte>();
+
             for (var i = 0; i < length; i++)
             {
 
@@ -237,9 +240,12 @@ namespace SDRSharp.IllegalRadioDetect
                 _outputBuffer[(i * 4) + 1] = (byte)(leftChannel >> 8);
                 _outputBuffer[(i * 4) + 2] = (byte)(rightChannel & 0x00ff);
                 _outputBuffer[(i * 4) + 3] = (byte)(rightChannel >> 8);
+
+                left.Add((byte)(leftChannel & 0x00ff));
+                left.Add((byte)(leftChannel >> 8));
             }
 
-            WriteStream(_outputBuffer);
+            WriteStream(left.ToArray());
         }
 
         private void WriteFloat(float* data, int length)
